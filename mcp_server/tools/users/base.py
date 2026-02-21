@@ -1,7 +1,7 @@
 from abc import ABC
 
-from mcp_server.tools.base import BaseTool
-from mcp_server.tools.users.user_client import UserClient
+from tools.base import BaseTool
+from tools.users.user_client import UserClient
 
 
 class BaseUserServiceTool(BaseTool, ABC):
